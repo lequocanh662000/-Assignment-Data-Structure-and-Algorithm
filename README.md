@@ -1,4 +1,4 @@
-# -Assignment-Data-Structure-and-Algorithm 
+# Assignment-Data-Structure-and-Algorithm 
 Content is in master branch
 
  Implementation:
