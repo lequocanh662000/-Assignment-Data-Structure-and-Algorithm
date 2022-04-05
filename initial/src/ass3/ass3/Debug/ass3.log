@@ -1,0 +1,53 @@
+﻿  Cache.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+main.obj : warning LNK4006: "public: __thiscall Cache::Cache(class SearchEngine *,class ReplacementPolicy *)" (??0Cache@@QAE@PAVSearchEngine@@PAVReplacementPolicy@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: __thiscall Cache::~Cache(void)" (??1Cache@@QAE@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class heapNode & __thiscall heapNode::operator=(class heapNode const &)" (??4heapNode@@QAEAAV0@ABV0@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "bool __cdecl operator<(class heapNode const &,class heapNode const &)" (??M@YA_NABVheapNode@@0@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall FIFO::access(int)" (?access@FIFO@@UAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall LFU::access(int)" (?access@LFU@@UAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall MRU::access(int)" (?access@MRU@@UAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall avlNode::copy(class avlNode *)" (?copy@avlNode@@QAEXPAV1@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: class avlNode * __thiscall AVL::find(class avlNode *,int)" (?find@AVL@@AAEPAVavlNode@@PAV2@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: void __thiscall AVL::freeTree(class avlNode *)" (?freeTree@AVL@@AAEXPAVavlNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: int __thiscall avlNode::getAddr(void)const " (?getAddr@avlNode@@QBEHXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: int __thiscall AVL::getBalance(class avlNode *)" (?getBalance@AVL@@AAEHPAVavlNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: class avlNode * __thiscall AVL::getMinNode(class avlNode *)" (?getMinNode@AVL@@AAEPAVavlNode@@PAV2@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: void __thiscall LFU::heapDown(int)" (?heapDown@LFU@@AAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: void __thiscall LFU::heapUp(int)" (?heapUp@LFU@@AAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: int __thiscall AVL::height(class avlNode *)" (?height@AVL@@AAEHPAVavlNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: void __thiscall AVL::inOrder(class avlNode *)" (?inOrder@AVL@@AAEXPAVavlNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: class avlNode * __thiscall AVL::insert(class avlNode *,class Elem *)" (?insert@AVL@@AAEPAVavlNode@@PAV2@PAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall AVL::insert(class Elem *)" (?insert@AVL@@UAEXPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall DBHashing::insert(class Elem *)" (?insert@DBHashing@@UAEXPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall FIFO::insert(class Elem *)" (?insert@FIFO@@UAEXPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall LFU::insert(class Elem *)" (?insert@LFU@@UAEXPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall MRU::insert(class Elem *)" (?insert@MRU@@UAEXPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: bool __thiscall LFU::isLeaf(int)" (?isLeaf@LFU@@AAE_NH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: class avlNode * __thiscall AVL::leftRotate(class avlNode *)" (?leftRotate@AVL@@AAEPAVavlNode@@PAV2@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "int __cdecl maximum(int,int)" (?maximum@@YAHHH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: void __thiscall AVL::preOrder(class avlNode *)" (?preOrder@AVL@@AAEXPAVavlNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall AVL::print(void)" (?print@AVL@@UAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall DBHashing::print(void)" (?print@DBHashing@@UAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall FIFO::print(void)" (?print@FIFO@@UAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall LFU::print(void)" (?print@LFU@@UAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall MRU::print(void)" (?print@MRU@@UAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::printRP(void)" (?printRP@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::printSE(void)" (?printSE@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Elem * __thiscall Cache::put(int,class Data *)" (?put@Cache@@QAEPAVElem@@HPAVData@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Data * __thiscall Cache::read(int)" (?read@Cache@@QAEPAVData@@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: class avlNode * __thiscall AVL::remove(class avlNode *,int)" (?remove@AVL@@AAEPAVavlNode@@PAV2@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual class Elem * __thiscall FIFO::remove(void)" (?remove@FIFO@@UAEPAVElem@@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual class Elem * __thiscall LFU::remove(void)" (?remove@LFU@@UAEPAVElem@@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual class Elem * __thiscall LRU::remove(void)" (?remove@LRU@@UAEPAVElem@@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual class Elem * __thiscall MRU::remove(void)" (?remove@MRU@@UAEPAVElem@@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall AVL::removeNode(int)" (?removeNode@AVL@@UAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual void __thiscall DBHashing::removeNode(int)" (?removeNode@DBHashing@@UAEXH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: class avlNode * __thiscall AVL::rightRotate(class avlNode *)" (?rightRotate@AVL@@AAEPAVavlNode@@PAV2@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual class Elem * __thiscall AVL::search(int)" (?search@AVL@@UAEPAVElem@@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: virtual class Elem * __thiscall DBHashing::search(int)" (?search@DBHashing@@UAEPAVElem@@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "private: void __thiscall LFU::swap(int,int)" (?swap@LFU@@AAEXHH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Elem * __thiscall Cache::write(int,class Data *)" (?write@Cache@@QAEPAVElem@@HPAVData@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "int MAXSIZE" (?MAXSIZE@@3HA) already defined in Cache.obj; second definition ignored
+C:\Users\Dell\Desktop\main 4\data structures and algorithms\ass3\initial\src\ass3\Debug\ass3.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  ass3.vcxproj -> C:\Users\Dell\Desktop\main 4\data structures and algorithms\ass3\initial\src\ass3\Debug\ass3.exe
