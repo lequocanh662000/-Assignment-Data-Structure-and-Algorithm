@@ -1,5 +1,5 @@
 # -Assignment-Data-Structure-and-Algorithm 
-content is in master branch
+Content is in master branch
 
  Implementation:
   - AVL tree, hashing for searching.
